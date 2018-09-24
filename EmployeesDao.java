@@ -97,7 +97,7 @@ package com.program.Employees;
 	        EmployeesDao empDao = new EmployeesDao();
 	 
 	        EmployeesDao program = new EmployeesDao();
-	      program.setName("Babu");
+	       program.setName("Ajay");
 	        program.setDepartment("Security");
 	        program.setJoinedOn(new Date());
 	       program.setSalary(new Long(5250));
@@ -125,31 +125,28 @@ package com.program.Employees;
 	 
 	        System.out.println("---------------------------");
 	    }
-	
-		private Long getId() {
-			// TODO Auto-generated method stub
-			return null;
-		}
 
 		private void setSalary(Long long1) {
-			// TODO Auto-generated method stub
+			
 			
 		}
 
 		private void setJoinedOn(Date date) {
-			// TODO Auto-generated method stub
 			
 		}
 
 		private void setDepartment(String string) {
-			// TODO Auto-generated method stub
+			
 			
 		}
 
 		private void setName(String string) {
-			// TODO Auto-generated method stub
-			
 		}
 
-		
+		private Long getId() {
+			
+			return null;
+		}
 	}
+
+		
